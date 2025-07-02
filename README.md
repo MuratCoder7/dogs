@@ -1,16 +1,44 @@
-# my_cat_app_with_bloc
+# 🐶 Dog Gallery App
 
-A new Flutter project.
+A Flutter app that allows users to upload and view dog images. Built with [The Dog API](https://www.thedogapi.com/) and custom upload features,and the BLoC pattern for clean and scalable state management.This app is a fun and interactive way for users to share and enjoy dog content.
+ 
+## 🚀 Features
 
-## Getting Started
+- 📸 Upload dog images directly from the app.
+- 🌐 View uploaded images .
+- 🎨 Clean and responsive Flutter UI.
+- 🔄 State management using the BLoC (Business Logic Component) pattern
+- 🔒 Works on Android, iOS .
 
-This project is a starting point for a Flutter application.
+- ## 📸 Screenshots
+- ![Home Screen](lib/screenshots/home_page.jpg)
+- ![Upload Screen](lib/screenshots/upload_page.jpg)
 
-A few resources to get you started if this is your first Flutter project:
+## 🔐 API Key Setup
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To make it work:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Go to [https://thedogapi.com/](https://thedogapi.com/).
+2. Get your API key from the dashboard. 
+
+   ```dart
+   const String CAT_API_KEY = 'your_api_key_here';
+
+## 📦 Packages Used
+
+| Package                 | Description                                                                 |
+|-------------------------|-----------------------------------------------------------------------------|
+| http                  | For making REST API requests                                                |
+| http_interceptor      | Adds request/response interceptors to the http package                      |
+| logger                | Lightweight and flexible logger for debugging and error tracking            |
+| cached_network_image  | Efficiently loads and caches images from the internet                       |
+| image_picker          | Allows users to pick images from their device's gallery                     |
+| flutter_bloc          | A predictable state management library using the BLoC (Business Logic Component) pattern |
+
+
+
+
+⚠️ License
+This project is not licensed yet.
+If you wish to use or modify this app for commercial or educational purposes, please contact me .
+
